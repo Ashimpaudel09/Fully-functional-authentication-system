@@ -1,0 +1,55 @@
+# -------------------------------
+# ⚙️ Node / dependencies
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------------
+# 🧱 Build & serverless artifacts
+# -------------------------------
+.vercel/
+.vercel_build_output/
+dist/
+build/
+.cache/
+.temp/
+*.log
+
+# -------------------------------
+# 🔒 Environment variables
+# -------------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# -------------------------------
+# 💾 OS / IDE files
+# -------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# -------------------------------
+# 🧪 Testing / coverage
+# -------------------------------
+coverage/
+*.lcov
+
+# -------------------------------
+# 🧠 Debugging / misc temp files
+# -------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+.eslintcache
